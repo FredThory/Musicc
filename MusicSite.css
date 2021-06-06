@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    background-color: lightgrey;
+}
+.nav{
+    font-size: 25px;
+    text-align: center;
+    list-style-type: none;
+    padding-top:10px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.Box{
+    position:relative;
+   
+    background-color: rgb(167, 167, 167);
+    color: black;
+    text-decoration: none;
+    padding:10px;
+
+    border: 2px solid #fa823d;
+    border-radius: 0 0 10px 10px;
+}
+.test {
+    position: absolute;
+    left: 160px;
+    width: 80%;
+    text-align: center;
+    margin-top: 5%;
+
+
+    border-color:#fa823d;
+    border-width: 4px;
+    border-style: solid;
+
+    border-radius: 10px 10px 0 0;
+}
+
+.content{
+    padding: 10px;
+}
+
+.Spot:hover{
+    border: 2px solid #191414;
+    background-color: #191414;
+    color:  #1DB954;
+
+}
